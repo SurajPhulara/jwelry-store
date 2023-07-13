@@ -1,0 +1,48 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100vw;
+    height: 62px;
+    background: #093931FF;
+    color: #EEF1F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 132px;
+    box-sizing: border-box;
+}
+
+.navbar__left {
+    font-size: 30px;
+    line-height: 46px;
+    color: #F5D38EFF;
+}
+
+.navbar__right {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+.navbar__links {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    display: flex;
+}
+
+a{
+    padding: 11px 30.63px;
+}
+
+.navbar__icons{
+    display: flex;
+    gap: 40px;
+}
+
+a.active{
+    color: rgb(242,198,109);
+    border-bottom: 4px solid rgb(242,198,109);
+}

@@ -1,0 +1,13 @@
+export { default as profileIcon } from "./profile.svg";
+export { default as shoppingCartIcon } from "./shoppingcart.svg";
+export { default as bg1 } from "./bg1.svg";
+export { default as img1 } from "./img1.png";
+export { default as img2 } from "./img2.jpg";
+export { default as playButtonIcon } from "./playButton.svg";
+export { default as deliveryTruck} from "./deliveryTruck.svg";
+export { default as messageIcon} from "./message.svg";
+export { default as payment} from "./payment.svg";
+export { default as ProductImage1} from "./ProductImage1.jpg";
+export { default as ProductImage2} from "./ProductImage2.jpg";
+export { default as ProductImage3} from "./ProductImage3.jpg";
+export { default as ProductImage4} from "./ProductImage4.jpg";

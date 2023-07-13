@@ -1,0 +1,30 @@
+.Products_card{
+    height: fit-content;
+    padding-bottom: 18px;
+    margin: auto 0;
+    /* margin-top: 48px; */
+
+    width: 276px; 
+  /* height: 410px;  */
+  background: #FFFFFFFF; /* white */
+  border-radius: 8px; /* border-xl */
+  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+    overflow: hidden;
+}
+
+.Products_card img {
+    width: 276px;
+    height: 320px;
+}
+
+.product_name{
+    font-size: 24px; 
+  line-height: 36px; 
+  color: #171A1FFF;
+}
+
+.product_price{
+    font-size: 16px; 
+  line-height: 26px; 
+  color: #171A1FFF;
+}

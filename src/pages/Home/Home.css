@@ -1,0 +1,140 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.hero__section{
+    width: 100vw;
+    height: 100vh;
+    background: #093931FF;
+    background-image: url("../../assets/bg1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6vw;
+    padding: 0 148px 0 132px ;
+}
+
+.hero__section__left{
+    width: 537px; 
+    height: 246px; 
+    font-size: 72px; 
+    line-height: 94px; 
+    color: #F5D38EFF; 
+}
+
+
+/* Button 1 */
+.button {
+    margin-top: 24px;
+    width: 200px; 
+    height: 52px; 
+    padding: 0 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Manrope; /* Body */
+    font-size: 18px; 
+    line-height: 28px; 
+    color: #FFFFFFFF; /* white */
+    background: #00000000; /* transparent */
+    opacity: 1; 
+    border-radius: 26px; 
+    border-width: 1px; 
+    border-color: #FFFFFFFF; /* white */
+    border-style: solid; 
+  }
+  /* Hover */
+  .button:hover {
+    color: #DEE1E6FF; /* neutral-300 */
+    background: #00000000; /* transparent */
+  }
+
+  .button:hover:active {
+    color: #BCC1CAFF; /* neutral-400 */
+    background: #00000000; /* transparent */
+  }
+
+  .hero__section__right{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image1{
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+    width: 407px; 
+    height: 543px; 
+    border-radius: 8px;
+  }
+
+  .image2{
+    width: 241px; 
+    height: 321px; 
+    border-radius: 121px 121px 0px 0px; /* border-tl-rounded border-tr-rounded */
+    box-shadow: 0px 8px 17px #171a1f, 0px 0px 2px #171a1f; /* shadow-l */
+}
+
+.hero__section__video{
+      margin-top: 50px;
+      position: relative;
+    left: -100px;
+    z-index: 2;
+  }
+
+  .playbutton{
+    position: absolute;
+    height: 60px;
+    top: 47%;
+    left: 40%;
+  }
+
+  .features__section{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 132px;
+    margin: 24px 0;
+  }
+
+  .featured_products__section{
+    padding: 0 132px;
+    height: 506px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 48px;
+
+  }
+
+  .product__section__left{
+    margin-top: 54px;
+  }
+
+  .product__section__description{
+    width: 264px; 
+  font-family: Manrope; /* Body */
+  font-size: 16px; 
+  line-height: 26px; 
+  color: #9095A0FF;
+  }
+
+  .featured_product_heading{
+    width: 264px; 
+  font-size: 40px; 
+  line-height: 56px; 
+  color: #0D554AFF;
+  }
+
+.product_section__products{
+    display: flex;
+    gap: 24px;
+  }
+
+  .our-collections__section{
+    
+  }
