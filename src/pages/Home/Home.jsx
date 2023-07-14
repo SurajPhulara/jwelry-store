@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
-import { CollectionImage1, CollectionImage2, CollectionImage3, CollectionImage4, CollectionImage5, CollectionImage6, ProductImage1, ProductImage2, ProductImage3, ProductImage4, deliveryTruck, img1, img2, jwelry1, jwelry2, jwelry3, jwelry4, messageIcon, payment, playButtonIcon, testimonialimg1 } from '../../assets'
+import { CollectionImage1, CollectionImage2, CollectionImage3, CollectionImage4, CollectionImage5, CollectionImage6, ProductImage1, ProductImage2, ProductImage3, ProductImage4, deliveryTruck, img1, img2, jwelry1, jwelry2, jwelry3, jwelry4, messageIcon, nextIcon, payment, playButtonIcon, prevIcon, testimonialimg1 } from '../../assets'
 import Products_card from '../../components/Products_card/Products_card'
 import Features_card from '../../components/Features_card/Features_card'
 import Collections_card from '../../components/Collections_card/Collections_card'
@@ -47,23 +47,40 @@ function SamplePrevArrow(props) {
   );
 }
 
+function PrevArrow2(props){
+  const { className, style, onClick } = props;
+  return (
+    <div className="prev_arrow2" onClick={onClick} >
+      <img src={prevIcon} alt="" />
+    </div>
+  )
+}
+function NextArrow2(props){
+  const { className, style, onClick } = props;
+  return (
+    <div className="next_arrow2" onClick={onClick} >
+      <img src={nextIcon} alt="" />
+    </div>
+  )
+}
+
 const Home = () => {
   var settings = {
     infinite: true,
     speed: 500,
     arrows: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
     variableWidth: true,
 
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    nextArrow: <SampleNextArrow/>,
+    prevArrow: <SamplePrevArrow/>,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
 
           variableWidth: true,
@@ -73,7 +90,7 @@ const Home = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
 
           variableWidth: true,
@@ -93,9 +110,8 @@ const Home = () => {
     ]
   };
   return (
+    <div>
     <div className='home'>
-
-      <Navbar></Navbar>
 
       <div className="hero__section">
         <div className="hero__section__left font-primary">
@@ -145,6 +161,7 @@ const Home = () => {
         </div>
         <button className='button' style={{ color: '#0D554AFF', borderColor: '#0D554AFF' }}>Shop now</button>
       </div>
+
       <div className="portfolio__section">
         <div className="product__section__left">
           <div className="featured_product_heading font-primary">Our Selection of Jewelry</div>
@@ -160,6 +177,7 @@ const Home = () => {
           </Slider>
         </div>
       </div>
+
       <div className="our-story__section">
         <div className="heading">Our Story</div>
         <iframe
@@ -169,6 +187,7 @@ const Home = () => {
           allowFullScreen
         ></iframe>
       </div>
+
       <div className="testimonials__section">
         <div className="testimonial_left">
           <div className="section__title font-primary">From the people </div>
@@ -176,18 +195,32 @@ const Home = () => {
             We love hearing from our customers! <br></br>You’re the reason we’re here and the reason we do what we do.</div>
         </div>
         <div className="testimonial_right">
-          
-          <div className="testimonial">
-            <img src={testimonialimg1} alt="" /> 
-            <div className="testimonial_content">
-              <div className="user_review font-secondary">The ring itself is stunning, with a beautiful design that catches the light and sparkles from every angle. The quality of the materials used is evident, as the ring feels substantial and durable. The gemstone is exquisite, with a vibrant color and exceptional clarity.</div>
-              <div className="user_name font-secondary">Anna Fernandez</div>
-              <div className="user_location font-secondary">USA</div>
-            </div>
+        <Slider {...settings} nextArrow={<NextArrow2 />} prevArrow={<PrevArrow2/>} className="slider">
+        <>
+        <div className="testimonial">
+          <img src={testimonialimg1} alt="" />
+          <div className="testimonial_content">
+            <div className="user_review font-secondary">The ring itself is stunning, with a beautiful design that catches the light and sparkles from every angle. The quality of the materials used is evident, as the ring feels substantial and durable. The gemstone is exquisite, with a vibrant color and exceptional clarity.</div>
+            <div className="user_name font-secondary">Anna Fernandez</div>
+            <div className="user_location font-secondary">USA</div>
           </div>
         </div>
+        </>
+        <>
+        <div className="testimonial">
+          <img src={testimonialimg1} alt="" />
+          <div className="testimonial_content">
+            <div className="user_review font-secondary">The ring itself is stunning, with a beautiful design that catches the light and sparkles from every angle. The quality of the materials used is evident, as the ring feels substantial and durable. The gemstone is exquisite, with a vibrant color and exceptional clarity.</div>
+            <div className="user_name font-secondary">Anna Fernandez</div>
+            <div className="user_location font-secondary">USA</div>
+          </div>
+        </div>
+        </>
+      </Slider>
+        </div>
       </div>
-      <Footer></Footer>
+
+    </div>
     </div>
   )
 }

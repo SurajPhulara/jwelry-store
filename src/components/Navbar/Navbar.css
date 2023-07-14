@@ -14,12 +14,6 @@
     box-sizing: border-box;
 }
 
-.navbar__left {
-    font-size: 30px;
-    line-height: 46px;
-    color: #F5D38EFF;
-}
-
 .navbar__right {
     display: flex;
     flex-direction: row;

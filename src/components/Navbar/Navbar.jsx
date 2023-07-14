@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Navbar.css"
 import { profileIcon, shoppingCartIcon } from '../../assets'
+import Logo from '../Logo/Logo'
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <div className="navbar__left font-primary">Darling.</div>
+      <Logo></Logo>
       <div className="navbar__right font-secondary">
         <div className="navbar__links">
           <a href="#" className='active'>Home</a>
