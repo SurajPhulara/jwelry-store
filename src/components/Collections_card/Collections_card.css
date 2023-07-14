@@ -1,0 +1,17 @@
+.Collections_card{
+    position: relative;
+    width: 360px; 
+  height: 360px; 
+  border-radius: 8px; 
+  overflow: hidden;
+}
+
+.Collections_card .card_name{
+    width: fit-content;
+    position: absolute;
+    top: 288px;
+    left: 74px;
+    font-size: 32px; 
+  line-height: 48px; 
+  color: white;
+}
