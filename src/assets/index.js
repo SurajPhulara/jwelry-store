@@ -22,3 +22,4 @@ export { default as jwelry2} from "./jwelry2.jpg";
 export { default as jwelry3} from "./jwelry3.jpg";
 export { default as jwelry4} from "./jwelry4.jpg";
 export { default as testimonialimg1} from "./testimonialimg1.jpeg";
+export { default as nextIcon} from "./nextIcon.svg";
