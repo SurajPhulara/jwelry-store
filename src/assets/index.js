@@ -25,3 +25,7 @@ export { default as testimonialimg1} from "./testimonialimg1.jpeg";
 export { default as prevIcon} from "./prevIcon.svg";
 export { default as nextIcon} from "./nextIcon.svg";
 export { default as mailicon} from "./mailicon.svg";
+export { default as twitter } from "./twitter.svg";
+export { default as facebook} from "./facebook.svg";
+export { default as linkedin} from "./linkedin.svg";
+export { default as youtube } from "./youtube.svg";

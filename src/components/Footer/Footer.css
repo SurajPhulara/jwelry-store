@@ -3,9 +3,10 @@
     background: #093931FF;
     color: white;
     padding: 48px 132px 25px;
-    position: relative;
-    bottom: 0;
-    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    box-sizing: border-box;
 }
 
 .footer_upper {
@@ -85,4 +86,14 @@
     font-size: 14px;
     color: inherit;
     font-family: inherit;
+}
+
+.footer_lower{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_socialmedia_icons{
+    display: flex;
+    gap: 16px;
 }

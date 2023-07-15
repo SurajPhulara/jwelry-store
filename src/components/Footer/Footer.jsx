@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Footer.css"
 import Logo from '../Logo/Logo'
-import { mailicon } from '../../assets'
+import { facebook, linkedin, mailicon, twitter, youtube } from '../../assets'
 
 const Footer = () => {
   return (
@@ -26,6 +26,15 @@ const Footer = () => {
             </div>
             <button className="submit">Subscribe</button>
           </form>
+        </div>
+      </div>
+      <div className="footer_lower">
+        <div className="footor_copyright font-secondary">© 2022 Brand, Inc.</div>
+        <div className="footer_socialmedia_icons">
+          <img src={twitter} alt="" />
+          <img src={facebook} alt="" />
+          <img src={linkedin} alt="" />
+          <img src={youtube} alt="" />
         </div>
       </div>
     </div>
