@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 6vw;
-  padding: 0 148px 0 132px;
+  padding: 0 9.6vw 0 8.6vw;
 }
 
 /* Left Section of Hero Section */
@@ -58,12 +58,6 @@
   color: rgb(186, 187, 189);
   border-color: rgb(186, 187, 189);
   background: #00000022;
-}
-
-/* Active Styles for Button */
-.button:hover:active {
-  color: #BCC1CAFF;
-  background: #00000000;
 }
 
 /* Right Section of Hero Section */
@@ -112,14 +106,14 @@
 .features__section {
   display: flex;
   justify-content: space-between;
-  padding: 36px 132px;
+  padding: 36px 8.6vw;
   margin: 24px 0;
 }
 
 /* Featured Products Section and Portfolio Section */
 .featured_products__section,
 .portfolio__section {
-  padding: 0 0 0 132px;
+  padding: 0 0 0 8.6vw;
   width: 100vw;
   height: 506px;
   box-sizing: border-box;
@@ -166,7 +160,7 @@
 
 /* Our Collections Section */
 .our-collections__section {
-  padding: 48px 132px;
+  padding: 48px 8.6vw;
   height: 1090px;
   display: flex;
   flex-direction: column;
@@ -215,7 +209,7 @@
 /* Our Story Section */
 .our-story__section {
   height: 564px;
-  padding: 48px 132px 72px 132px;
+  padding: 48px 8.6vw 72px 8.6vw;
   background: #FAFAFBFF;
   box-sizing: border-box;
 }
@@ -232,7 +226,7 @@
   height: 522px;
   background: #093931FF;
   display: flex;
-  padding: 72px 132px 75px;
+  padding: 72px 8.6vw 75px;
   justify-content: space-between;
   color: white;
   align-items: center;
@@ -287,7 +281,6 @@
   font-size: 16px;
   line-height: 26px;
   position: relative;
-  z-index: 9999;
 }
 
 /* User Name in Testimonial */

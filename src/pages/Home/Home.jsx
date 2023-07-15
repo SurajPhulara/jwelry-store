@@ -72,6 +72,7 @@ function NextArrow2(props){
 }
 
 const Home = () => {
+  // settings for slider
   var settings = {
     infinite: true,
     speed: 500,
@@ -188,7 +189,7 @@ const Home = () => {
         </div>
         <div className="testimonial_right">
           {/* Slider with Testimonial Cards */}
-          <Slider {...settings} nextArrow={<NextArrow2 />} prevArrow={<PrevArrow2/>} className="slider">
+          <Slider {...settings} variableWidth={false} nextArrow={<NextArrow2 />} prevArrow={<PrevArrow2/>} className="slider">
             <div className="">
             <div className="testimonial">
               <img src={testimonialimg1} alt="" />

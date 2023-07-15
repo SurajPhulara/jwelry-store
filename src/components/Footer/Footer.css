@@ -2,7 +2,7 @@
     height: 234px;
     background: #093931FF;
     color: white;
-    padding: 48px 132px 25px;
+    padding: 48px 8.6vw 25px;
     display: flex;
     flex-direction: column;
     gap: 36px;
@@ -18,11 +18,13 @@
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto auto;
-    gap: 12px 94px;
+    gap: 0 6vw;
 }
 
 .footer_menu_link {
     cursor: pointer;
+    font-size: 14px; 
+    line-height: 22px; 
 }
 
 .footer .title {
@@ -96,4 +98,9 @@
 .footer_socialmedia_icons{
     display: flex;
     gap: 16px;
+}
+
+.footer_copyright{
+    font-size: 14px; 
+    line-height: 22px; 
 }

@@ -6,10 +6,12 @@
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.3s ease;
+  z-index: 1;
 }
 
 .Collections_card:hover {
   transform: scale(1.1);
+  z-index: 2;
 }
 
 .Collections_card .card_name {

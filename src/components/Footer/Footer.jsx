@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer_lower">
-        <div className="footor_copyright font-secondary">© 2022 Brand, Inc.</div>
+        <div className="footer_copyright font-secondary">© 2022 Brand, Inc.</div>
         <div className="footer_socialmedia_icons">
           <img src={twitter} alt="" />
           <img src={facebook} alt="" />
