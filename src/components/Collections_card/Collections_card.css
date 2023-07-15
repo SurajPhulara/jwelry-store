@@ -1,17 +1,23 @@
-.Collections_card{
-    position: relative;
-    width: 360px; 
-  height: 360px; 
-  border-radius: 8px; 
+.Collections_card {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  border-radius: 8px;
   overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.Collections_card .card_name{
-    width: fit-content;
-    position: absolute;
-    top: 288px;
-    left: 74px;
-    font-size: 32px; 
-  line-height: 48px; 
+.Collections_card:hover {
+  transform: scale(1.1);
+}
+
+.Collections_card .card_name {
+  width: fit-content;
+  position: absolute;
+  top: 288px;
+  left: 74px;
+  font-size: 32px;
+  line-height: 48px;
   color: white;
 }

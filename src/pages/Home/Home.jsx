@@ -20,7 +20,7 @@ function SampleNextArrow(props) {
         ...style, display: "block",
         position: 'absolute',
         left: '97.8%',
-        top: '40%',
+        top: '42%',
         zIndex: '1',
         background: 'radial-gradient(circle at center, rgba(0, 0, 0, .9) 5%, rgba(255, 255, 255, 0) 80%'
       }}
@@ -37,8 +37,8 @@ function SamplePrevArrow(props) {
       style={{
         ...style, display: "block",
         position: 'absolute',
-        left: '0.5%',
-        top: '40%',
+        left: '1.6%',
+        top: '42%',
         zIndex: '1',
         background: 'radial-gradient(circle at center, rgba(0, 0, 0, .9) 5%, rgba(255, 255, 255, 0) 80%'
       }}

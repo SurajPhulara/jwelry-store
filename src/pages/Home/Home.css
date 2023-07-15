@@ -155,10 +155,9 @@
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  overflow: hidden;
-  /* padding:0 25px; */
-  margin-top: 48px;
-  /* border: 2px solid green; */
+  overflow-x: hidden;
+  margin-top: 38px;
+  margin-left: -10px;
 }
 
 .our-collections__section {
@@ -252,6 +251,7 @@
 
 .slider {
   width: 100%;
+  /* overflow: visible; */
 }
 
 .testimonial {
