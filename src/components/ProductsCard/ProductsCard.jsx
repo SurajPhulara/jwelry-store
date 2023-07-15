@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Product_card.css"
+import "./ProductCard.css"
 import { ProductImage1 } from '../../assets'
 
 const Products_card = (props) => {

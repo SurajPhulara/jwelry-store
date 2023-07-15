@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Features_card.css"
+import "./FeaturesCard.css"
 import { deliveryTruck } from '../../assets'
 
 const Features_card = (props) => {

@@ -1,9 +1,9 @@
+/* Home Section */
 .home {
   width: 100vw;
-  /* height: 100vh; */
-  /* box-sizing: border-box; */
 }
 
+/* Hero Section */
 .hero__section {
   width: 100vw;
   height: 100vh;
@@ -19,6 +19,7 @@
   padding: 0 148px 0 132px;
 }
 
+/* Left Section of Hero Section */
 .hero__section__left {
   width: 537px;
   height: 246px;
@@ -30,7 +31,7 @@
   gap: 24px;
 }
 
-/* Button 1 */
+/* Button */
 .button {
   min-width: 200px;
   min-height: 52px;
@@ -41,33 +42,31 @@
   align-items: center;
   justify-content: center;
   font-family: Manrope;
-  /* Body */
   font-size: 18px;
   line-height: 28px;
   color: #FFFFFFFF;
-  /* white */
   background: #00000000;
-  /* transparent */
   opacity: 1;
   border-radius: 26px;
   border-width: 1px;
   border-color: #FFFFFFFF;
-  /* white */
   border-style: solid;
 }
 
-/* Hover */
+/* Hover Styles for Button */
 .button:hover {
   color: rgb(186, 187, 189);
   border-color: rgb(186, 187, 189);
   background: #00000022;
 }
 
+/* Active Styles for Button */
 .button:hover:active {
   color: #BCC1CAFF;
   background: #00000000;
 }
 
+/* Right Section of Hero Section */
 .hero__section__right {
   width: 30vw;
   display: flex;
@@ -75,6 +74,7 @@
   align-items: center;
 }
 
+/* Image1 */
 .image1 {
   position: relative;
   z-index: 1;
@@ -84,15 +84,15 @@
   border-radius: 8px;
 }
 
+/* Image2 */
 .image2 {
   width: 241px;
   height: 321px;
   border-radius: 121px 121px 0px 0px;
-  /* border-tl-rounded border-tr-rounded */
   box-shadow: 0px 8px 17px #171a1f, 0px 0px 2px #171a1f;
-  /* shadow-l */
 }
 
+/* Video in Hero Section */
 .hero__section__video {
   margin-top: 50px;
   position: relative;
@@ -100,6 +100,7 @@
   z-index: 2;
 }
 
+/* Play Button */
 .playbutton {
   position: absolute;
   height: 60px;
@@ -107,6 +108,7 @@
   left: 40%;
 }
 
+/* Features Section */
 .features__section {
   display: flex;
   justify-content: space-between;
@@ -114,6 +116,7 @@
   margin: 24px 0;
 }
 
+/* Featured Products Section and Portfolio Section */
 .featured_products__section,
 .portfolio__section {
   padding: 0 0 0 132px;
@@ -122,26 +125,27 @@
   box-sizing: border-box;
   display: flex;
   gap: 48px;
-  /* overflow: hidden; */
 }
 
+/* Left Section of Product Section */
 .product__section__left {
   margin-top: 54px;
   width: 264px;
   box-sizing: border-box;
 }
 
+/* Description in Product Section */
 .product__section__description {
   margin-top: 12px;
   width: 264px;
   font-family: Manrope;
-  /* Body */
   font-size: 16px;
   line-height: 26px;
   color: #9095A0FF;
   margin-bottom: 24px;
 }
 
+/* Heading of Featured Product Section */
 .featured_product_heading {
   width: 264px;
   font-size: 40px;
@@ -149,9 +153,9 @@
   color: #0D554AFF;
 }
 
+/* Products in Product Section */
 .product_section__products {
   display: flex;
-  /* gap: 24px; */
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
@@ -160,6 +164,7 @@
   margin-left: -10px;
 }
 
+/* Our Collections Section */
 .our-collections__section {
   padding: 48px 132px;
   height: 1090px;
@@ -169,6 +174,7 @@
   box-sizing: border-box;
 }
 
+/* Heading in Home Section */
 .home .heading {
   font-size: 40px;
   line-height: 56px;
@@ -177,9 +183,9 @@
   justify-content: center;
 }
 
+/* Collection Items */
 .collection__items {
   width: 100%;
-  /* height: 100%; */
   margin-top: 46px;
   margin-bottom: 26px;
   display: grid;
@@ -187,10 +193,10 @@
   grid-template-rows: auto auto;
   grid-row-gap: 20px;
   justify-content: space-between;
-  /* align-items: center; */
   align-content: space-between;
 }
 
+/* Additional Styling for Collection Items */
 .collection__items > *:nth-child(3n) {
   margin-top: 36px;
 }
@@ -199,12 +205,14 @@
   margin-top: 36px;
 }
 
+/* Portfolio Section */
 .portfolio__section {
   margin-top: 24px;
   height: 554px;
   background: #FAFAFBFF;
 }
 
+/* Our Story Section */
 .our-story__section {
   height: 564px;
   padding: 48px 132px 72px 132px;
@@ -212,12 +220,14 @@
   box-sizing: border-box;
 }
 
+/* Video in Our Story Section */
 .our-story__video {
   margin-top: 20px;
   height: 368px;
   width: 100%;
 }
 
+/* Testimonials Section */
 .testimonials__section {
   height: 522px;
   background: #093931FF;
@@ -229,31 +239,34 @@
   box-sizing: border-box;
 }
 
+/* Title in Testimonials Section */
 .testimonials__section .section__title {
   font-size: 48px;
   line-height: 68px;
 }
 
+/* Description in Testimonials Section */
 .testimonials__section .section__description {
   width: 264px;
   font-size: 16px;
   line-height: 26px;
 }
 
+/* Right Section of Testimonial */
 .testimonial_right {
   width: 696px;
-  /* overflow: hidden; */
   height: 375px;
   display: flex;
   gap: 40px;
   justify-content: space-between;
 }
 
+/* Slider */
 .slider {
   width: 100%;
-  /* overflow: visible; */
 }
 
+/* Testimonial */
 .testimonial {
   background: #171A1F4D;
   overflow: hidden;
@@ -265,6 +278,7 @@
   display: flex;
 }
 
+/* Content in Testimonial */
 .testimonial_content {
   margin: 60px 36px;
   width: 324px;
@@ -276,11 +290,13 @@
   z-index: 9999;
 }
 
+/* User Name in Testimonial */
 .user_name {
   margin-top: 18px;
   line-height: 30px;
 }
 
+/* Next Arrow in Testimonial */
 .next_arrow2{
   position: absolute;
   left: calc(100% - 52px - 36px);
@@ -288,6 +304,7 @@
   z-index: 1;
 }
 
+/* Previous Arrow in Testimonial */
 .prev_arrow2{
   position: absolute;
   left: calc(100% - 52px - 18px - 52px - 36px);

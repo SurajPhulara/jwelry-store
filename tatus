@@ -1,0 +1,41 @@
+[33mcommit bd8022b26e90af9050be381047cdd50d9c8990fa[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: SurajPhulara <suraj66171@gmail.com>
+Date:   Sat Jul 15 08:14:40 2023 +0530
+
+    minor changes to for smooth functioning of carousal
+
+[33mcommit 9dc6fea11e0e3b90718a9ec4c988ffbdb8fe7987[m
+Author: SurajPhulara <suraj66171@gmail.com>
+Date:   Sat Jul 15 06:28:34 2023 +0530
+
+    completed footer
+
+[33mcommit 1e09f70d1303c7a4aeabf571a7e8d3802936485f[m
+Author: SurajPhulara <suraj66171@gmail.com>
+Date:   Sat Jul 15 05:04:13 2023 +0530
+
+    added footer
+
+[33mcommit 1d720a040f208109c909eb61b46b45d3f79f9d6c[m
+Author: SurajPhulara <suraj66171@gmail.com>
+Date:   Fri Jul 14 22:34:33 2023 +0530
+
+    added carousal
+
+[33mcommit 0b5400f3b94a17c185ec3f1a4f4cc60df4bb6528[m
+Author: SurajPhulara <suraj66171@gmail.com>
+Date:   Fri Jul 14 09:03:29 2023 +0530
+
+    added collections portfolio story and testimonial section
+
+[33mcommit 3b9986953a02ff2f9ad02c57792a09e851a9f2f3[m
+Author: SurajPhulara <suraj66171@gmail.com>
+Date:   Thu Jul 13 12:06:01 2023 +0530
+
+    added navbar and 3 sections of home page
+
+[33mcommit 6c423d9942ace2072df20dd9f45c71012d195ab2[m
+Author: SurajPhulara <suraj66171@gmail.com>
+Date:   Wed Jul 12 20:28:43 2023 +0530
+
+    Initialize project using Create React App

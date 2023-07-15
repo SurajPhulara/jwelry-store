@@ -10,4 +10,14 @@
   overflow: scroll;
   /* overflow: hidden; */
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.under_development_page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
