@@ -1,5 +1,6 @@
 .footer {
-    height: 234px;
+    /* height: 234px; */
+    height: fit-content ;
     background: #093931FF;
     color: white;
     padding: 48px 8.6vw 25px;
@@ -7,6 +8,9 @@
     flex-direction: column;
     gap: 36px;
     box-sizing: border-box;
+    width: 100vw;
+    max-width: 100vw;
+    /* overflow-x: hidden; */
 }
 
 .footer_upper {
