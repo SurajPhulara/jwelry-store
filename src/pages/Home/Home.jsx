@@ -16,7 +16,7 @@ function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={`${className} jj`}
+      className={`${className}`}
       style={{
         ...style,
         display: "block",

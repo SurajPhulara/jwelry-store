@@ -16,6 +16,8 @@
 .footer_upper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .footer_menu {
@@ -79,8 +81,8 @@
 }
 
 .newsletter_form .submit:hover {
-    color: #6B4A09FF; /* secondary-800 */
-    background: #ECAA25FF; /* secondary-600 */
+    color: #6B4A09FF;
+    background: #ECAA25FF;
   }
 
 .newsletter_form .input,
@@ -97,6 +99,7 @@
 .footer_lower{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer_socialmedia_icons{
