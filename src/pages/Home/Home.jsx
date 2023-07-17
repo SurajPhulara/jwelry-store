@@ -55,8 +55,8 @@ function PrevArrow2(props){
   // Custom previous arrow component for the second slider
   const { className, style, onClick } = props;
   return (
-    <div className="prev_arrow2" onClick={onClick} >
-      <img src={prevIcon} alt="" />
+    <div className="prev_arrow2">
+      <img src={prevIcon} alt="" onClick={onClick}/>
     </div>
   )
 }
@@ -65,8 +65,8 @@ function NextArrow2(props){
   // Custom next arrow component for the second slider
   const { className, style, onClick } = props;
   return (
-    <div className="next_arrow2" onClick={onClick} >
-      <img src={nextIcon} alt="" />
+    <div className="next_arrow2" >
+      <img src={nextIcon} alt="" onClick={onClick}/>
     </div>
   )
 }

@@ -388,6 +388,7 @@ box-sizing: border-box;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
   }
   .product_section__products{
     overflow: visible;
@@ -438,7 +439,8 @@ box-sizing: border-box;
     display: flex;
     justify-content: end;
     top: calc(35% - 26px);
-    width: 100vw;
+    width: 50vw;
+    margin-left: 50vw;
     box-sizing: border-box;
   }
   
@@ -447,8 +449,10 @@ box-sizing: border-box;
     width: 100%;
     padding-left: calc(5vw);
     left: 0;
+    width: fit-content;
+    box-sizing: border-box;
   }
-  
+
   .testimonial_content {
     margin: 50px auto;
     padding: 0 10px;
