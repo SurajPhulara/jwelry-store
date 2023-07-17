@@ -420,7 +420,6 @@
   }
   .testimonials__section{
     min-height: fit-content;
-    border: 2px solid white;
     overflow: hidden;
   }
   .testimonial_right{
