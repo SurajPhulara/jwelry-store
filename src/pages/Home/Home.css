@@ -317,7 +317,6 @@
 }
 
 .testimonial_right{
-width: 100vw;
 box-sizing: border-box;
 }
 
@@ -454,5 +453,9 @@ box-sizing: border-box;
     margin: 50px auto;
     padding: 0 10px;
     box-sizing: border-box;
+  }
+  
+  .testimonial_right{
+    width: 100vw;
   }
 }
