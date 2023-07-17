@@ -4,8 +4,12 @@
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .app {
-  width: calc(100vw + 30px);
+  width: 100vw;
   height: 100vh;
   overflow: scroll;
   /* overflow: hidden; */
