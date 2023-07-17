@@ -445,7 +445,7 @@ box-sizing: border-box;
   .prev_arrow2{
     top: calc(35% - 26px);
     width: 100%;
-    padding-left: calc(5vw - 5px);
+    padding-left: calc(5vw);
     left: 0;
   }
   
