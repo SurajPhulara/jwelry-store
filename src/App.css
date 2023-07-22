@@ -11,6 +11,7 @@
 .app {
   width: 100vw;
   height: 100vh;
+  min-height: fit-content;
   overflow: scroll;
   /* overflow: hidden; */
   overflow-x: hidden;
